@@ -1,4 +1,4 @@
-/* ===== RESET BÁSICO ===== */
+/* RESET BÁSICO */
 * {
     margin: 0;
     padding: 0;
@@ -6,21 +6,21 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ===== ESTILO GENERAL ===== */
+/* CUERPO */
 body {
-    background-color: #f5f7fa;
+    background: #f5f7fa;
     color: #333;
     line-height: 1.6;
     padding: 20px;
     text-align: center;
 }
 
-/* ===== TITULOS ===== */
+/* TÍTULOS */
 h1 {
+    margin-bottom: 20px;
     color: #2c3e50;
     text-transform: uppercase;
     font-size: 2rem;
-    margin-bottom: 20px;
     border-bottom: 3px solid #3498db;
     padding-bottom: 10px;
 }
@@ -30,13 +30,13 @@ h2 {
     margin: 20px 0 10px;
 }
 
-/* ===== PÁRRAFOS ===== */
+/* PÁRRAFOS */
 p {
     margin-bottom: 10px;
     font-size: 1rem;
 }
 
-/* ===== IMÁGENES ===== */
+/* IMÁGENES */
 img {
     display: block;
     margin: 10px auto;
@@ -49,7 +49,7 @@ img:hover {
     transform: scale(1.05);
 }
 
-/* ===== TABLAS ===== */
+/* TABLAS */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -64,28 +64,28 @@ th, td {
 }
 
 th {
-    background-color: #3498db;
+    background: #3498db;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background: #f2f2f2;
 }
 
-/* ===== ENLACES ===== */
-a.link {
+/* ENLACE AL FORMULARIO */
+.link {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 20px;
     text-decoration: none;
     color: white;
-    background-color: #3498db;
+    background: #3498db;
     border-radius: 6px;
     transition: background 0.3s ease;
 }
 
-a.link:hover {
-    background-color: #2980b9;
+.link:hover {
+    background: #2980b9;
 }
