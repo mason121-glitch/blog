@@ -1,75 +1,76 @@
-/* RESET BÁSICO */
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
-/* CONTENEDOR CENTRAL */
-.container {
-    max-width: 500px;
-    margin: 50px auto;
-    padding: 20px;
+/* Body */
+body {
     background: #f5f7fa;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-    text-align: center;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
 }
 
-/* TÍTULO */
+/* Títulos */
 h1 {
-    color: #3498db;
+    text-align: center;
     margin-bottom: 20px;
+    color: #2c3e50;
+    font-size: 2rem;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
 }
 
-/* LABELS */
-label {
+h2 {
+    color: #3498db;
+    margin: 20px 0 10px;
+}
+
+/* Párrafos */
+p { margin-bottom: 10px; }
+
+/* Imágenes */
+img {
     display: block;
-    margin: 15px 0 5px;
-    font-weight: bold;
+    margin: 10px auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
 }
 
-/* INPUTS Y TEXTAREA */
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 1rem;
+img:hover { transform: scale(1.05); }
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
 }
 
-/* BOTÓN ENVIAR */
-input[type="submit"] {
-    padding: 10px 25px;
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
     background: #3498db;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background 0.3s ease;
+    color: #fff;
 }
 
-input[type="submit"]:hover {
-    background: #2980b9;
-}
+tr:nth-child(even) { background: #f2f2f2; }
 
-/* ENLACE DE VOLVER */
-.link-back {
+/* Enlaces */
+a {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 10px 20px;
     text-decoration: none;
     color: white;
     background: #3498db;
     border-radius: 6px;
-    transition: background 0.3s ease;
 }
 
-.link-back:hover {
-    background: #2980b9;
-}
+a:hover { background: #2980b9; }
